@@ -1,7 +1,7 @@
 //229. Majority Element II
 //==============Idea=============
-
-
+//Similar idea to the 169. Majority Element
+//Store two majority elements (at most) and check the frequency in the end
 //==============Idea=============
 class Solution {
 public:
