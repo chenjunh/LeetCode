@@ -2,6 +2,8 @@
 //=======================Idea====================
 //Compare list1->val and list2->val, link the output list to list with the smaller val
 //Then move this list to the next and compare again
+//Time Complexity: O(list1+list2)
+//Space complexity: O(1)
 //=======================Idea====================
 /**
  * Definition for singly-linked list.
