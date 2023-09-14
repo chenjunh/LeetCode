@@ -8,12 +8,12 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        sort(strs.begin(),strs.end());
+        sort(strs.begin(),strs.end());//sort strs 
         int n=strs.size();
         string first=strs[0];
         string last=strs[n-1];
         string output="";
-        for (int i=0;i<min(first.size(),last.size());i++){
+        for (int i=0;i<min(first.size(),last.size());i++){//loop to the end of the string with the smaller size 
             if (first[i]!=last[i]) return output;
             output += first[i];
         }
